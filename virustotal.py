@@ -139,7 +139,7 @@ LANG = {
         "scan_results_header": "РЕЗУЛЬТАТЫ СКАНИРОВАНИЯ",
         "anonymous": "Аноним",
         "about_text": """
-🔍 VirusTotal Scanner Pro v1.0.0
+🔍 VirusTotal Scanner Pro v3.0
 
 📌 Логика работы:
    1️⃣ Проверяет SHA-256 хеш файла
@@ -287,7 +287,7 @@ LANG = {
         "scan_results_header": "SCAN RESULTS",
         "anonymous": "Anonymous",
         "about_text": """
-🔍 VirusTotal Scanner Pro v1.0.0
+🔍 VirusTotal Scanner Pro v3.0
 
 📌 Logic:
    1️⃣ Checks SHA-256 hash of the file
@@ -1051,7 +1051,7 @@ class VirusTotalScanner(ctk.CTk):
         
         ctk.CTkLabel(
             logo_frame,
-            text="Pro Edition v1.0.0",
+            text="Pro Edition v3.0",
             font=ctk.CTkFont(size=12),
             text_color="gray60"
         ).pack()
