@@ -1,3 +1,4 @@
+<img width="1672" height="941" alt="37812634-905d-498b-87e0-99deb53be189" src="https://github.com/user-attachments/assets/0cb06326-c5ee-4a18-a1d2-a26f0d60f71f" />
 # VirusTotal Scanner Pro — C++ / Dear ImGui + DirectX 11
 
 Портирован с оригинального Python/customtkinter-приложения (`virustotal.py`) на нативный
@@ -13,6 +14,7 @@ Windows-десктоп: Dear ImGui поверх DirectX 11 + Win32, без Pytho
   «поверх всех окон», счётчик использованных запросов за день (сбрасывается ежедневно).
 - Диалог ввода/смены API-ключа, копирование хеша, открытие отчёта в браузере.
 - Конфиг хранится в `%LOCALAPPDATA%\VirusTotalScanner\vt_config.json` — как и раньше.
+
 
 ## Чего нет (сознательно упрощено при портировании)
 
